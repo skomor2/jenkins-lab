@@ -44,6 +44,7 @@ job('greeting-demo-app-1') {
     steps {
 
         shell 'echo Hello'
+        shell 'echo Hello'
         shell 'date > data'
         shell 'git add data'
         shell 'git commit -m data'

@@ -1,6 +1,4 @@
 
-//import static com.twitter.kszdev.jenkins.jobdsl.custom.Timestamper.addTimestamps
-
 job('sample-job') {
     steps {
         shell "echo -e '\\e[32mGenerating data\\e[0m'"
