@@ -15,7 +15,7 @@ job('sample-job') {
     }
     wrappers {
         colorizeOutput()                                // plugin supported via JobDSL API
-        addTimestamps(delegate)                         // custom code on the classpath
+        timestamps()                         // custom code on the classpath
     }
     configure {
         (it / quietPeriod).value = 0                    // directly modify underlying config.xml
