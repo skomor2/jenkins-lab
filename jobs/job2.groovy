@@ -8,6 +8,7 @@ job('job2') {
     }
     publishers {
         chucknorris()
+        wsCleanup()
     }
     steps {
         for (int i = 0; i < addresses.size(); i++) {
