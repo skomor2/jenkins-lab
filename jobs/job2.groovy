@@ -1,6 +1,6 @@
-
+def addresses = ['test1.comarch', 'test2.comarch', 'test3.comarch']
 job('job2') {
-    def addresses = ['test1.comarch', 'test2.comarch', 'test3.comarch']
+
     description 'Build and test the app'
     wrappers {
         timestamps()
