@@ -11,7 +11,8 @@ job('job2') {
     }
     steps {
         for (int i = 0; i < addresses.size(); i++) {
-            shell('ssh clm@' + adresses(i) + '"test"')
+            def string = "ssh clm@" + addresses[i] + "\" shutdown.sh\""
+            shell(string)
         }
     }
 }
