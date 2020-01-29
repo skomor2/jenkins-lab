@@ -1,4 +1,4 @@
-def addresses = ['test1.comarch', 'test2.comarch', 'test3.comarch']
+def addresses = ['test1.comarch', 'test2.comarch', 'test3.comarch', 'test2.comarch', 'test2.comarch', 'test2.comarch', 'test2.comarch', 'test2.comarch', 'test2.comarch', 'test2.comarch', 'test2.comarch', 'test2.comarch', 'test2.comarch', 'test2.comarch', 'test2.comarch', 'test2.comarch', 'test2.comarch', 'test2.comarch', 'test2.comarch']
 job('job2') {
 
     description 'Build and test the app'
