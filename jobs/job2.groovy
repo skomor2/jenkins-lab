@@ -11,9 +11,7 @@ job('job2') {
     }
     steps {
         for (int i = 0; i < addresses.size(); i++) {
-            shell('ssh clm@i "test')
+            shell('ssh clm@adresses(i) "test"')
         }
-
     }
-
 }
