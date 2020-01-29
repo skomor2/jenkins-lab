@@ -1,4 +1,3 @@
-
 job('sample-job') {
     steps {
         shell "echo -e '\\e[32mGenerating data\\e[0m'"
