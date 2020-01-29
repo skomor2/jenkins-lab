@@ -5,7 +5,7 @@ job('sample-job') {
         shell 'echo `date` > data'
     }
     steps {
-        shell("echo dupa");
+        shell("echo test");
 
     }
     publishers {
