@@ -1,4 +1,3 @@
-import javaposse.jobdsl.dsl.views.jobfilter.Status
 
 //import static com.twitter.kszdev.jenkins.jobdsl.custom.Timestamper.addTimestamps
 

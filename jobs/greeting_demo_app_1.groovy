@@ -1,4 +1,3 @@
-import javaposse.jobdsl.dsl.views.jobfilter.Status
 
 job('greeting-demo-app-1') {
     description 'Build and test the app'
